@@ -10,8 +10,8 @@ def lambda_handler(event, context):
         print("Environment Variables:", json.dumps(dict(os.environ), indent=2))
 
         # Get environment variables
-        knowledge_base_id = '1ANKHSJYDW'
-        data_source_id = 'O1WDETVZYD'
+        knowledge_base_id = '<your-knowledge-base-id>'
+        data_source_id = '<your-data-source-id>'
 
         # Ensure values are not None
         if not knowledge_base_id or not data_source_id:
